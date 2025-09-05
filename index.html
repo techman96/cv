@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Muhammad Shumail — Resume</title>
+    <meta name="description" content="Muhammad Shumail — Graphic Designer & Data Journalist" />
+    <style>
+      :root {
+        --accent: #0b5fff;
+        --muted: #6b7280;
+        --bg: #f8fafc;
+        --paper: #ffffff;
+        --max-width: 900px;
+        --container-padding: 28px;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background: var(--bg);
+        color: #0f172a;
+      }
+      .wrap {
+        max-width: var(--max-width);
+        margin: 32px auto;
+        padding: var(--container-padding);
+      }
+      .card {
+        background: var(--paper);
+        border-radius: 12px;
+        box-shadow: 0 6px 24px rgba(2, 6, 23, 0.06);
+        overflow: hidden;
+      }
+      header {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 28px;
+        border-bottom: 1px solid #eef2ff;
+      }
+      .avatar {
+        width: 84px;
+        height: 84px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, var(--accent), #10b981);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+      }
+      .title {
+        flex: 1;
+      }
+      h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+      .sub {
+        color: var(--muted);
+        margin-top: 6px;
+      }
+      .contact {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 28px;
+        padding: 28px;
+      }
+      section {
+        background: transparent;
+      }
+      h2 {
+        font-size: 16px;
+        margin: 0 0 12px 0;
+        color: #0b1220;
+      }
+      .job {
+        margin-bottom: 18px;
+      }
+      .job .meta {
+        display: flex;
+        justify-content: space-between;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      ul {
+        margin: 8px 0 16px 18px;
+      }
+      .pill {
+        display: inline-block;
+        background: #eef2ff;
+        color: var(--accent);
+        padding: 6px 9px;
+        border-radius: 999px;
+        font-size: 12px;
+        margin-right: 8px;
+      }
+      aside {
+        padding: 2px 0;
+      }
+      .box {
+        background: #fafafa;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 12px;
+      }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      footer {
+        padding: 18px 28px;
+        border-top: 1px solid #eef2ff;
+        background: linear-gradient(180deg, rgba(11, 95, 255, 0.02), transparent);
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+      }
+      a.button {
+        background: var(--accent);
+        color: white;
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a.ghost {
+        background: transparent;
+        border: 1px solid #e6eefc;
+        color: var(--accent);
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      @media (max-width: 880px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+        .avatar {
+          width: 68px;
+          height: 68px;
+        }
+      }
+      /* print friendly */
+      @media print {
+        body {
+          background: white;
+        }
+        .wrap {
+          box-shadow: none;
+          margin: 0;
+        }
+        .card {
+          box-shadow: none;
+          border-radius: 0;
+        }
+        footer,
+        a.button,
+        a.ghost {
+          display: none;
+        }
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card" role="document">
+        <header>
+          <div class="avatar" aria-hidden="true">MS</div>
+          <div class="title">
+            <h1>Muhammad Shumail</h1>
+            <div class="sub">Graphic Designer & Data Journalist</div>
+            <div class="contact">
+              <div>
+                <a href="mailto:muhammad.shumail48@journalism.cuny.edu"
+                  >muhammad.shumail48@journalism.cuny.edu</a
+                >
+              </div>
+              <div><a href="tel:+16318098340">631‑809‑8340</a></div>
+              <div>Deer Park, NY 11729</div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/muhammad-shumail-021729277/"
+                  target="_blank"
+                  rel="noopener"
+                  >linkedin.com/in/muhammad-shumail-021729277</a
+                >
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main>
+          <section aria-labelledby="exp">
+            <h2 id="exp">Professional Experience</h2>
+
+            <div class="job">
+              <div class="meta">
+                <strong>Wall Street Journal — Graphics Intern</strong
+                ><span>June - Aug 2025 • Manhattan, NY</span>
+              </div>
+              <ul>
+                <li>
+                  Designed and published three graphics for breaking Nvidia news, featured on A1,
+                  under tight deadlines.
+                </li>
+                <li>
+                  Built an interactive <strong>D3.js</strong> chart analyzing the stock market
+                  impact of Trump’s tweets.
+                </li>
+                <li>
+                  Generated a <strong>scatter plot</strong> and charts highlighting workforce
+                  reductions across companies, making complex data accessible to readers.
+                </li>
+                <li>
+                  Developed a <strong>QGIS</strong> map of U.S. county credit scores, visualizing
+                  socioeconomic disparities.
+                </li>
+                <li>
+                  Created infographics explaining a <strong>disaster alert system</strong>, boosting
+                  public understanding of warning systems.
+                </li>
+                <li>
+                  Visualized trends in declining readership of legacy magazines, providing insights
+                  for editorial strategy.
+                </li>
+                <li>
+                  Produced user‑friendly and editorially strong visual journalism for print and
+                  digital; partnered with cross‑functional teams of reporters, editors, and
+                  developers to execute data‑driven stories.
+                </li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="meta">
+                <strong>Inewsource (Remote) — Investigative Data Reporting Intern</strong
+                ><span>June - Aug 2024 • San Diego, CA</span>
+              </div>
+              <ul>
+                <li>
+                  Created an interactive searchable map of <strong>unpaved roads</strong> in San
+                  Diego with <strong>Mapbox</strong>, leading to ~2,500 extra clicks on the story
+                  compared to average views.
+                </li>
+                <li>
+                  Analyzed large datasets to uncover trends and insights about
+                  <strong>hate crimes</strong> in California.
+                </li>
+                <li>
+                  Collaborated with editorial teams to integrate data‑driven stories about
+                  <strong>homelessness</strong>, resulting in 20% longer time‑on‑page.
+                </li>
+                <li>
+                  Created interactive data visualizations about the
+                  <strong>rising hate crimes</strong> in San Diego, which increased positive reader
+                  feedback by 15%.
+                </li>
+                <li>
+                  Contributed to building a <strong>chatbot</strong> that automated requesting court
+                  records.
+                </li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="meta">
+                <strong
+                  >Craig Newmark Graduate School of Journalism — Reporting & Social Video</strong
+                ><span>Aug 2023 - Dec 2024 • New York, NY</span>
+              </div>
+              <ul>
+                <li>
+                  Produced and published a <strong>video news package</strong> on the
+                  Palestinian‑Israeli rally for NY City News Service.
+                </li>
+                <li>
+                  Produced coverage of the <strong>NYC Half Marathon</strong> with integrated social
+                  media storytelling.
+                </li>
+                <li>
+                  <strong>Capstone:</strong> mapped drone strikes in Pakistan using
+                  <strong>MapLibre</strong> and <strong>D3.js</strong>.
+                </li>
+                <li>
+                  Created a choropleth map of <strong>restaurant violations</strong> in NYC by ZIP
+                  code using <strong>Datawrapper</strong>.
+                </li>
+                <li>
+                  Built an interactive interface for a <strong>Calorie Counter</strong> in
+                  JavaScript to track daily calories.
+                </li>
+                <li>
+                  Scraped multiple websites with automated pipelines using <strong>Python</strong>.
+                </li>
+              </ul>
+            </div>
+
+            <h2>Education</h2>
+            <div class="job">
+              <div class="meta">
+                <strong
+                  >Craig Newmark Graduate School of Journalism at CUNY — MA in Journalism</strong
+                ><span>New York, NY • June 2025</span>
+              </div>
+              <div class="sub" style="margin-left: 2px">
+                Concentration: <strong>International Reporting</strong> • Specialization:
+                <strong>Data Journalism</strong>
+              </div>
+            </div>
+          </section>
+
+          <aside>
+            <div class="box">
+              <h3 style="margin: 0 0 8px 0">Skills (Quick View)</h3>
+              <div class="skills">
+                <span class="pill">D3.js</span>
+                <span class="pill">Mapbox / MapLibre</span>
+                <span class="pill">QGIS / ArcGIS</span>
+                <span class="pill">Datawrapper / Flourish</span>
+                <span class="pill">HTML / CSS / JS</span>
+                <span class="pill">Python / R / SQL</span>
+                <span class="pill">Adobe Illustrator</span>
+                <span class="pill">Photoshop / InDesign</span>
+                <span class="pill">Premiere Pro / Adobe Sensei</span>
+              </div>
+            </div>
+
+            <div class="box">
+              <h3 style="margin: 0 0 8px 0">Skills & Certifications (Full)</h3>
+              <ul style="margin: 0 0 0 18px; padding: 0">
+                <li>
+                  <strong>Certificates:</strong> Facebook — Programming with JavaScript, Front‑End
+                  Development, HTML & CSS.
+                </li>
+                <li>
+                  <strong>Visual Journalism & Storytelling:</strong> Interactive graphics, data
+                  visualization, infographics, breaking news, UX.
+                </li>
+                <li>
+                  <strong>Web Development & Interactive Tools:</strong> HTML, CSS, JavaScript,
+                  D3.js, Svelte, Shopify.
+                </li>
+                <li>
+                  <strong>Design & Multimedia:</strong> Adobe Illustrator, Photoshop, InDesign,
+                  Premiere Pro, Adobe Sensei.
+                </li>
+                <li>
+                  <strong>Mapping & GIS:</strong> Mapbox, MapLibre, QGIS, ArcGIS, Datawrapper,
+                  Flourish.
+                </li>
+                <li>
+                  <strong>Data Analysis & Coding:</strong> Python, R, SQL, Excel, web scraping.
+                </li>
+                <li>
+                  <strong>Collaboration:</strong> Git/GitHub, newsroom workflow, cross‑team
+                  coordination, fact‑checking.
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </main>
+
+        <footer>
+          <div style="display: flex; justify-content: space-between; align-items: center">
+            <div style="color: var(--muted); font-size: 13px">
+              Data visualization, interactive graphics, and visual storytelling.
+            </div>
+            <div class="actions">
+              <a class="button" href="#" onclick="window.print();return false;">Print / Save PDF</a>
+              <a class="ghost" href="https://github.com/" target="_blank" rel="noopener"
+                >View on GitHub</a
+              >
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
