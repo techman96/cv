@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Muhammad Shumail — Resume</title>
+    <meta name="description" content="Muhammad Shumail — Graphic Designer & Data Journalist" />
+    <style>
+      :root {
+        --accent: #0b5fff;
+        --muted: #6b7280;
+        --bg: #f8fafc;
+        --paper: #ffffff;
+        --max-width: 900px;
+        --container-padding: 28px;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background: var(--bg);
+        color: #0f172a;
+      }
+      .wrap {
+        max-width: var(--max-width);
+        margin: 32px auto;
+        padding: var(--container-padding);
+      }
+      .card {
+        background: var(--paper);
+        border-radius: 12px;
+        box-shadow: 0 6px 24px rgba(2, 6, 23, 0.06);
+        overflow: hidden;
+      }
+      header {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 28px;
+        border-bottom: 1px solid #eef2ff;
+      }
+      .avatar {
+        width: 84px;
+        height: 84px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, var(--accent), #10b981);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+      }
+      .title {
+        flex: 1;
+      }
+      h1 {
+        font-size: 24px;
+        margin: 0;
+      }
+      .sub {
+        color: var(--muted);
+        margin-top: 6px;
+      }
+      .contact {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 8px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 28px;
+        padding: 28px;
+      }
+      section {
+        background: transparent;
+      }
+      h2 {
+        font-size: 16px;
+        margin: 0 0 12px 0;
+        color: #0b1220;
+      }
+      .job {
+        margin-bottom: 18px;
+      }
+      .job .meta {
+        display: flex;
+        justify-content: space-between;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      ul {
+        margin: 8px 0 16px 18px;
+      }
+      .pill {
+        display: inline-block;
+        background: #eef2ff;
+        color: var(--accent);
+        padding: 6px 9px;
+        border-radius: 999px;
+        font-size: 12px;
+        margin-right: 8px;
+      }
+      aside {
+        padding: 2px 0;
+      }
+      .box {
+        background: #fafafa;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 12px;
+      }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      footer {
+        padding: 18px 28px;
+        border-top: 1px solid #eef2ff;
+        background: linear-gradient(180deg, rgba(11, 95, 255, 0.02), transparent);
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+      }
+      a.button {
+        background: var(--accent);
+        color: white;
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a.ghost {
+        background: transparent;
+        border: 1px solid #e6eefc;
+        color: var(--accent);
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      @media (max-width: 880px) {
+        main {
+          grid-template-columns: 1fr;
+        }
+        .avatar {
+          width: 68px;
+          height: 68px;
+        }
+      }
+      /* print friendly */
+      @media print {
+        body {
+          background: white;
+        }
+        .wrap {
+          box-shadow: none;
+          margin: 0;
+        }
+        .card {
+          box-shadow: none;
+          border-radius: 0;
+        }
+        footer,
+        a.button,
+        a.ghost {
+          display: none;
+        }
+        main {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card" role="document">
+        <header>
+          <div class="avatar" aria-hidden="true">MS</div>
+          <div class="title">
+            <h1>Muhammad Shumail</h1>
+            <div class="sub">Graphic Designer & Data Journalist</div>
+            <div class="contact">
+              <div>muhammad.shumail48@journalism.cuny.edu</div>
+              <div>631‑809‑8340</div>
+              <div>Deer Park, NY</div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/muhammad-shumail-021729277/"
+                  target="_blank"
+                  rel="noopener"
+                  >linkedin.com/in/muhammad-shumail-021729277</a
+                >
+              </div>
+            </div>
+          </div>
+          <div style="text-align: right">
+            <div class="pill">Available: June - Aug 2025</div>
+          </div>
+        </header>
+
+        <main>
+          <section aria-labelledby="exp">
+            <h2 id="exp">Professional Experience</h2>
+
+            <div class="job">
+              <div class="meta">
+                <strong>Wall Street Journal — Graphics Intern</strong
+                ><span>June - Aug 2025 • Manhattan, NY</span>
+              </div>
+              <ul>
+                <li>
+                  Designed and published graphics for breaking news and features under tight
+                  deadlines.
+                </li>
+                <li>
+                  Built an interactive D3.js chart analyzing market impact of social media events.
+                </li>
+                <li>
+                  Generated scatter and choropleth maps highlighting workforce reductions and
+                  socioeconomic disparities.
+                </li>
+                <li>
+                  Collaborated with reporters, editors, and developers to deliver data-driven
+                  stories for web and print.
+                </li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="meta">
+                <strong>InewsSource — Investigative Data Reporting Intern (Remote)</strong
+                ><span>June - Aug 2024 • San Diego, CA</span>
+              </div>
+              <ul>
+                <li>
+                  Created an interactive searchable map of unpaved roads using Mapbox, boosting user
+                  engagement.
+                </li>
+                <li>
+                  Analyzed large datasets to discover trends in crime and homelessness, informing
+                  follow-up reporting.
+                </li>
+                <li>
+                  Built data visualizations and contributed to a chatbot to automate public records
+                  requests.
+                </li>
+              </ul>
+            </div>
+
+            <div class="job">
+              <div class="meta">
+                <strong
+                  >Craig Newmark Graduate School of Journalism — Reporting & Social Video</strong
+                ><span>Aug 2023 - Dec 2024 • New York, NY</span>
+              </div>
+              <ul>
+                <li>
+                  Produced and published a video news package on the Palestinian-Israeli rally for
+                  NY City News Service.
+                </li>
+                <li>
+                  Led a capstone data visualization project mapping drone strikes using MapLibre and
+                  D3.js.
+                </li>
+                <li>
+                  Built interactive tools (Calorie Counter demo) and scraped multiple sites for
+                  structured datasets using Python.
+                </li>
+              </ul>
+            </div>
+
+            <h2>Education</h2>
+            <div class="job">
+              <div class="meta">
+                <strong
+                  >Craig Newmark Graduate School of Journalism at CUNY — MA in Journalism</strong
+                ><span>Concentration: International Reporting • June 2025</span>
+              </div>
+            </div>
+          </section>
+
+          <aside>
+            <div class="box">
+              <h3 style="margin: 0 0 8px 0">Skills & Tools</h3>
+              <div class="skills">
+                <span class="pill">D3.js</span>
+                <span class="pill">Mapbox / MapLibre</span>
+                <span class="pill">Datawrapper</span>
+                <span class="pill">QGIS / ArcGIS</span>
+                <span class="pill">HTML / CSS / JS</span>
+                <span class="pill">Python / R / SQL</span>
+                <span class="pill">Adobe Illustrator</span>
+                <span class="pill">Photoshop</span>
+                <span class="pill">Premiere Pro</span>
+              </div>
+            </div>
+
+            <div class="box">
+              <h3 style="margin: 0 0 8px 0">Certifications</h3>
+              <ul style="margin: 0 0 0 18px; padding: 0">
+                <li>Facebook: Front-End Development & JavaScript</li>
+                <li>Visual Journalism & Storytelling</li>
+                <li>Web Development & Interactive Tools (HTML, CSS, JS, Svelte)</li>
+              </ul>
+            </div>
+
+            <div class="box">
+              <h3 style="margin: 0 0 8px 0">Contact & Online</h3>
+              <div style="font-size: 14px; color: var(--muted)">
+                <div>Email: muhammad.shumail48@journalism.cuny.edu</div>
+                <div>
+                  LinkedIn:
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-shumail-021729277/"
+                    target="_blank"
+                    rel="noopener"
+                    >profile</a
+                  >
+                </div>
+              </div>
+            </div>
+          </aside>
+        </main>
+
+        <footer>
+          <div style="display: flex; justify-content: space-between; align-items: center">
+            <div style="color: var(--muted); font-size: 13px">
+              Data visualization, interactive graphics, and visual storytelling.
+            </div>
+            <div class="actions">
+              <a class="button" href="#" onclick="window.print();return false;">Print / Save PDF</a>
+              <a class="ghost" href="https://github.com/" target="_blank" rel="noopener"
+                >View on GitHub</a
+              >
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
